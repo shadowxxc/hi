@@ -1,0 +1,46 @@
+{
+  "name": "RN_HiApp",
+  "description": "HiApp written with react-native.",
+  "version": "0.1.0",
+  "author": "BelinChung",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BelinChung/react-native-hiapp.git"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint . --ext js"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.0.2",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "react": "15.4.1",
+    "react-native": "0.38.0",
+    "react-native-emoji-picker": "^0.2.2",
+    "react-native-gifted-chat": "0.0.10",
+    "react-native-gifted-listview": "git+https://github.com/BelinChung/react-native-gifted-listview.git#a64c4a5",
+    "react-native-image-picker": "^0.24.1",
+    "react-native-nav": "^1.1.4",
+    "react-native-navbar": "^1.5.4",
+    "react-native-parsed-text": "^0.0.16",
+    "react-native-photo-browser": "^0.2.2",
+    "react-native-swiper": "^1.5.4",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-native-video": "^0.9.0",
+    "react-redux": "^5.0.2",
+    "react-timer-mixin": "^0.13.3",
+    "realm": "^1.0.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.1",
+    "redux-persist": "^4.3.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-coremail": "~0.0.4",
+    "eslint-plugin-react": "^5.1.1",
+    "eslint-plugin-react-native": "^1.1.0-beta"
+  }
+}
